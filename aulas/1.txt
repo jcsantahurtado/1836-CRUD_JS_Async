@@ -1,0 +1,10 @@
+
+
+Lo que aprendimos en esta aula:
+
+    Hacer requisiciones utilizando xmlhttprequest.
+    Lidias con las promises.
+    Hacer una requisición http utilizando xmlhttprequest para buscar todos los clientes del servidor.
+    Refactorizar el código utilizando promises mejorando su lectura.
+    Utilizar template literals para crear un template html.
+

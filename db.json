@@ -1,9 +1,24 @@
 {
   "perfil": [
     {
+      "nombre": "Juan",
+      "email": "juan@mail.com",
+      "id": "4454c662-156f-4143-b52d-da7c9bb4f9ca"
+    },
+    {
       "nombre": "Marina",
       "email": "marina@mail.com",
-      "id": "551ba890-1956-4b3b-9d1c-265ea79ede9e"
+      "id": "8d3abf28-5df7-46eb-b71d-f386bd5c6b58"
+    },
+    {
+      "nombre": "Claudia",
+      "email": "claudia@mail.com",
+      "id": "18b31adf-d513-421b-99b3-1590fcb94168"
+    },
+    {
+      "nombre": "Tonni",
+      "email": "tonni@mail.com",
+      "id": "cc1a91b1-90ae-4c63-8a68-8f4fecf106a5"
     }
   ]
 }

@@ -1,0 +1,8 @@
+
+
+Lo que aprendimos en esta aula:
+
+    Hacer una query string utilizando la propiedad serachParams.get() para encontrar un id.
+    Crear una IIFE o función autoejecutable.
+    Editar los datos utilizando el verbo http PUT.
+

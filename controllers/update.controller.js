@@ -2,7 +2,7 @@ import { clientServices } from "../service/client-service.js";
 
 const form = document.querySelector('[data-form]');
 
-const getInformation = () => {
+const getInformation = async () => {
     const url = new URL(window.location);
     const id = url.searchParams.get('id');
 
@@ -13,10 +13,18 @@ const getInformation = () => {
     const nombre = document.querySelector('[data-nombre]');
     const email = document.querySelector('[data-email]');
 
-    clientServices.detailCustomer(id).then((perfil) => {
-        nombre.value = perfil.nombre;
-        email.value = perfil.email;
-    });
+    try {
+        const perfil = await clientServices.detailCustomer(id);
+        if (perfil.nombre && perfil.email) {
+            nombre.value = perfil.nombre;
+            email.value = perfil.email;
+        } else {
+            throw new Error();
+        }
+
+    } catch (error) {
+        window.location.href = '/screens/error.html';
+    }
 }
 
 getInformation();

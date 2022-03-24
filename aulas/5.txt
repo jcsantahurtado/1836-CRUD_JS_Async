@@ -1,0 +1,7 @@
+
+
+Lo que aprendimos en esta aula:
+
+    Utilizar async/await para indicar funciones asíncronas.
+    Tratar los errores con try/catch.
+
